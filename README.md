@@ -1,7 +1,7 @@
 # Lab 4: UR5 and Motor Control
 
 2.12/2.120 Intro to Robotics  
-Spring 2024[^1]
+Spring 2025[^1]
 
 - [Lab 4: UR5 and Motor Control](#lab-4-ur5-and-motor-control)
   - [0 (Prelab) Software Setup](#0-prelab-software-setup)
@@ -206,4 +206,5 @@ Here are some optional challenges you can try if you finish lab early!
 [^1]: Version 1 - 2020: Dr. Harrison Chin  
   Version 2 - 2021: Phillip Daniel  
   Version 3 - 2023: Ravi Tejwani and Kentaro Barhydt  
-  Version 4 - 2024: Joseph Ntaimo, Jinger Chong, Josh Sohn
+  Version 4 - 2024: Joseph Ntaimo, Jinger Chong, Josh Sohn  
+  Version 5 - 2025: Roberto Bolli Jr., Kaleb Blake
