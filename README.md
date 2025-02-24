@@ -120,7 +120,7 @@ In lab, we will perform a supervised run-through of controlling the UR5.
 
 Estimated time of completion: 20 min
 
-Clone this repository. Open `matlab/MotorModel.mlx` in MATLAB and follow along the guided tutorial to find the nominal controller gains for the motors.
+Clone this repository. Open `src/matlab/MotorModel.mlx` in MATLAB and follow along the guided tutorial to find the nominal controller gains for the motors.
 
 ## 2 Validate Hardware Setup
 Estimated time of completion: 10 min
