@@ -147,7 +147,7 @@ https://github.com/mit212/lab1_2024?tab=readme-ov-file#31-git-clone).
 
 ### 2.2 Validate Motors
 
-Orient the arm straight up, in default starting position. Run `test_code/motor_drive_test.cpp` to validate your motor setup. You should see both motors oscillating back and forth. Remember, motor 1 is attached to the base and motor 2 is attached to the second link. 
+Orient the arm straight up, in default starting position. Run `test_code/motor_drive_test.cpp` to validate your motor setup. You should see both motors oscillating back and forth. Remember, motor 1 is attached to the base and motor 2 is attached to the second link. **Perturb the arm and base links by hand to check if all screws are tight.** If you notice any slop in the system (e.g. a link can be moved by hand without engaging the motors), notify the TAs and we will provide you with a hex key.
 
 ### 2.3 Validate Encoders
 
