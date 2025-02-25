@@ -68,7 +68,7 @@ For Windows:
     </details>
 
 3. Restart your machine.
-4. Open Powershell and enter `wsl` to open a WSL terminal window. If Ubuntu hasn't been installed already, Windows will install it in a new terminal window. Wait until after this is completed and type `wsl` into PowerShell again. You might be asked to create a username and password. This can be whatever you want as long as you remember it.
+4. Open Powershell and enter `wsl` to open a WSL terminal window. If Ubuntu hasn't been installed already, Windows will install it in another terminal window. Wait until after this is completed and type `wsl` into PowerShell again. You might be asked to create a username and password. This can be whatever you want as long as you remember it.
 5. Enter the following sequentially:
     ```
     sudo apt update
