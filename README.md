@@ -74,7 +74,7 @@ For Windows:
     sudo apt update
     sudo apt upgrade
     sudo apt install python3-pip
-    pip3 install ur_rtde
+    pip3 install ur_rtde --break-system-packages
     ```
     Tip: You can paste text from your clipboard by right-clicking in Powershell.
 
