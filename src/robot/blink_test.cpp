@@ -8,7 +8,9 @@ void setup() {
   ums3.begin();
 
   // Brightness is 0-255. We set it to 1/3 brightness here
-  ums3.setPixelBrightness(255 / 3);
+  ums3.setPixelBrightness(255);
+
+  Serial.begin();
 }
 
 int color = 0;
@@ -17,5 +19,6 @@ void loop() {
   // colorWheel cycles red, orange, ..., back to red at 256
   ums3.setPixelColor(UMS3::colorWheel(color));
   color++;
+  Serial.println(String(color));
   delay(15);
 }
