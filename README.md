@@ -122,6 +122,8 @@ Estimated time of completion: 20 min
 
 Clone this repository. Open `src/matlab/MotorModel.mlx` in MATLAB and follow along the guided tutorial to find the nominal controller gains for the motors.
 
+You can find information about the motor here: https://www.gobilda.com/modern-robotics-12vdc-motor/
+
 ## 2 Validate Hardware Setup
 Estimated time of completion: 10 min
 
