@@ -58,18 +58,18 @@ Before coming in to lab, please download and install the following software.
 5. Install pip:
 
     **Windows/Mac**
-- Click on this link: https://bootstrap.pypa.io/get-pip.py
-- Save the file (CTRL + s) to your computer
-- Open a terminal/command prompt and navigate to the same directory as the saved script (e.g. via `cd "C:\Users\*your username*\Downloads"` if you saved it in your downloads folder)
-- Run `python get-pip.py`
-
-**Linux**
-- Enter the following sequentailly:
-    ```
-    sudo apt update
-    sudo apt upgrade
-    sudo apt install python3-pip
-    ```
+    - Click on this link: https://bootstrap.pypa.io/get-pip.py
+    - Save the file (CTRL + s) to your computer
+    - Open a terminal/command prompt and navigate to the same directory as the saved script (e.g. via `cd "C:\Users\*your username*\Downloads"` if you saved it in your downloads folder)
+    - Run `python get-pip.py`
+    
+    **Linux**
+    - Enter the following sequentailly:
+        ```
+        sudo apt update
+        sudo apt upgrade
+        sudo apt install python3-pip
+        ```
 
 6. Install the UR RTDE library by opening a terminal and typing `pip install ur_rtde`
 
