@@ -71,7 +71,7 @@ Before coming in to lab, please download and install the following software.
         sudo apt install python3-pip
         ```
 
-6. Install the UR RTDE library by opening a terminal and typing `pip install ur_rtde`.
+6. Install the RTDE library by opening a terminal and typing `pip install ur_rtde`.
 
 ### 0.2 (Optional) Windows Subsystem for Linux (WSL)
 
