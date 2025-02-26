@@ -97,33 +97,6 @@ For Windows:
     pip3 install ur_rtde --break-system-packages
     ```
     Tip: You can paste text from your clipboard by right-clicking in Powershell.
-
-For MacOS:
-1. Open Terminal.
-2. Enter `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` to install [Homebrew](https://brew.sh/), a package manager similar to Linux `apt`.
-3. Enter `echo "export PATH=/usr/local/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile` to add Homebrew to PATH.
-4. Enter the following sequentially:
-    ```
-    brew update
-    brew upgrade
-    brew install boost
-    brew install cmake
-    
-    git clone https://gitlab.com/sdurobotics/ur_rtde.git
-    cd ur_rtde
-    git submodule update --init --recursive
-    mkdir build
-    cd build
-    cmake ..
-    make
-    sudo make install
-    ```
-
-    <details>
-    <summary><i> Not working? </i></summary>
-
-    We are still debugging why this doesn't work especially for Apple chip Macs. Feel free to send the staff an email with the error you are getting.
-    </details>
    
 Additional references:
 - [Github (Example Codes)](https://github.com/mit212/ur_2024)
