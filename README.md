@@ -54,11 +54,18 @@ Before coming in to lab, please download and install the following software.
 
     If it instead returns `python is not recognized as an internal or external command, operable program, or batch file` or `python: command not found`, you may have forgotten to add Python to PATH during installation. You can fix this using the following instructions: [How to Add Python to PATH](https://realpython.com/add-python-to-path/).
 
-    </details>  
+    </details>
+5. Install pip:
+- Click on this link: https://bootstrap.pypa.io/get-pip.py
+- Save the file (CTRL + s) to your computer
+- Open a terminal/command prompt and navigate to the same directory as the saved script (e.g. by doing cd "C:\Users\* your username *\Downloads" if you saved it in your downloads folder)
+- Run `python get-pip.py`
+
+6. Install the UR RTDE library via `pip install ur_rtde`
 
 ### 0.2 UR5 RTDE
 
-Please note: installing RTDE directly via `pip install ur_rtde` in a terminal may be a viable solution this year. In previous years, this has led to errors, but it appears that Universal Robots has fixed the Python libraries so it works fine this year. Therefore, the steps below are OPTIONAL, but recommended for anyone on the UR5 subteam. 
+**Please note: installing RTDE directly via `pip install ur_rtde` in a terminal may be a viable solution this year. In previous years, this has led to errors, but it appears that Universal Robots has fixed the Python libraries so it works fine this year. Therefore, the steps below are OPTIONAL, but recommended for anyone on the UR5 subteam. **
 
 For Windows: 
 1. Open PowerShell in administrator mode by right-clicking and selecting "Run as administrator".
