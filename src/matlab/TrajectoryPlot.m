@@ -24,7 +24,7 @@ try
 % define serial object with matching com port and baud rate
 % change com port number and/or baud rate if needed
 
-s1 = serialport("COM18",115200);       % Windows
+s1 = serialport("COM7",115200);       % Windows
 % s1 = serialport("/dev/cu.usbmodem144101",115200);        % MacOS
 
 disp(' ');
@@ -89,7 +89,7 @@ figure(1)
 plot(data(:,1), data(:,2),'b', data(:,3), data(:,4),'r');
 title('Trajectory Data')
 xlabel('X (cm)'),ylabel('Y (cm)'), grid
-legend(Labels);
+legend(labels);
 xlim([-40 40]); ylim([0 50]);
 
 dt = mean(diff(data(:,1)));
