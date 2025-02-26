@@ -182,7 +182,7 @@ We will now use your tuned controllers to improve the drawing from last lab!
 3. Run `lab_code/drawing.cpp` and observe whether the arm performs better than last lab.
 4. Open `matlab/TrajectoryPlot.m` in MATLAB. Update the COM port.
 5. Run `matlab/TrajectoryPlot.m` to visualize the target and actual trajectories.
-6. Set `trajectoryType = JOYSTICK` and run `lab_code/drawing.cpp` again.
+6. After putting the arm in the home position, set `trajectoryType = JOYSTICK` and run `lab_code/drawing.cpp` again.
 7. Draw something awesome using your joystick!
 
 | :white_check_mark: CHECKOFF 1 :white_check_mark:   |
