@@ -57,7 +57,7 @@ Before coming in to lab, please download and install the following software.
     </details>
 5. Install pip:
 
-**Windows/Mac**
+    **Windows/Mac**
 - Click on this link: https://bootstrap.pypa.io/get-pip.py
 - Save the file (CTRL + s) to your computer
 - Open a terminal/command prompt and navigate to the same directory as the saved script (e.g. via `cd "C:\Users\*your username*\Downloads"` if you saved it in your downloads folder)
