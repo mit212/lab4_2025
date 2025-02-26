@@ -55,15 +55,23 @@ Before coming in to lab, please download and install the following software.
     If it instead returns `python is not recognized as an internal or external command, operable program, or batch file` or `python: command not found`, you may have forgotten to add Python to PATH during installation. You can fix this using the following instructions: [How to Add Python to PATH](https://realpython.com/add-python-to-path/).
 
     </details>
-5. Install pip
+5. Install pip:
 
-**Windows**
+**Windows/Mac**
 - Click on this link: https://bootstrap.pypa.io/get-pip.py
 - Save the file (CTRL + s) to your computer
 - Open a terminal/command prompt and navigate to the same directory as the saved script (e.g. via `cd "C:\Users\*your username*\Downloads"` if you saved it in your downloads folder)
 - Run `python get-pip.py`
 
-6. Install the UR RTDE library via `pip install ur_rtde`
+**Linux**
+- Enter the following sequentailly:
+    ```
+    sudo apt update
+    sudo apt upgrade
+    sudo apt install python3-pip
+    ```
+
+6. Install the UR RTDE library by opening a terminal and typing `pip install ur_rtde`
 
 ### 0.2 (Optional) Windows Subsystem for Linux (WSL)
 
@@ -89,10 +97,6 @@ For Windows:
     pip3 install ur_rtde --break-system-packages
     ```
     Tip: You can paste text from your clipboard by right-clicking in Powershell.
-
-For Linux: 
-1. Open Terminal.
-2. Follow step 5 under "For Windows".
 
 For MacOS:
 1. Open Terminal.
