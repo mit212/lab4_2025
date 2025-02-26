@@ -123,7 +123,7 @@ Like in the previous labs, we first want to make sure the parts work individuall
 
 <details> <summary> <i> How to know if the motor power is on? </i> </summary>
 
-The yellow LED on the motor driver indicates whether motor power is on or off.
+The green LED on the motor driver indicates whether motor power is on or off.
 </details>
 
 Clone this repository and run `robot/blink_test.cpp`. You should see the onboard LED change colors! 
@@ -157,7 +157,12 @@ We will be using `lab_code/sinusoidal_input.cpp` to tune our controllers. We wil
 3. Run `lab_code/sinusoidal_input.cpp`.
 4. Open `matlab/TuningPlot.m` in MATLAB. Update the COM port.
 5. Run `matlab/TuningPlot.m` in MATLAB to visualize the performance of your controller. 
-6. Tune your controller by incrementally changing `Ti1`, `Td1`, `Kp1`, and `alpha1` and seeing how that affects performance. Ideally, we want minimal overshoot, oscillations, and steady state error. 
+6. Tune your controller by incrementally changing `Ti1`, `Td1`, `Kp1`, and `alpha1` and seeing how that affects performance. Ideally, we want minimal overshoot, oscillations, and steady state error.
+
+<p align="center">
+    <img src=https://github.com/user-attachments/assets/2fb757f8-e8ee-4e8e-8cae-a819c4ca1fab alt="ik" width="400"/>
+    </p>
+
 7. Once you are satisfied with the performance, repeat the process for `MOTOR2`. 
 
 ## 4 Drawing Revisited
