@@ -57,6 +57,9 @@ Before coming in to lab, please download and install the following software.
     </details>  
 
 ### 0.2 UR5 RTDE
+
+Please note: installing RTDE directly via `pip install ur_rtde` in a terminal may be a viable solution this year. In previous years, this has led to errors, but it appears that Universal Robots has fixed the Python libraries so it works fine this year. Therefore, the steps below are OPTIONAL, but recommended for anyone on the UR5 subteam. 
+
 For Windows: 
 1. Open PowerShell in administrator mode by right-clicking and selecting "Run as administrator".
 2. Enter `wsl --install`. This installs Windows Subsystem for Linux (WSL) with Ubuntu as the default distribution.
