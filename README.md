@@ -155,7 +155,7 @@ Estimated time of completion: 20 min
 We will be using `lab_code/sinusoidal_input.cpp` to tune our controllers. We will tune the two motors separately.
 
 1. Uncomment `#define MOTOR1` and comment out `#define MOTOR2`.
-2. Update the parameters under the `#ifdef MOTOR1` section to be the nominal parameters computed from MATLAB. Parameters not mentioned in the MATLAB script should be left at zero.
+2. Update the parameters under the `#ifdef MOTOR1` section to be the nominal parameters computed from MATLAB.
 3. Run `lab_code/sinusoidal_input.cpp`.
 4. Open `matlab/TuningPlot.m` in MATLAB. Update the COM port.
 5. Run `matlab/TuningPlot.m` in MATLAB to visualize the performance of your controller. 
