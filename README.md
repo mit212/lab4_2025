@@ -156,7 +156,7 @@ We will be using `lab_code/sinusoidal_input.cpp` to tune our controllers. We wil
 
 1. Uncomment `#define MOTOR1` and comment out `#define MOTOR2`.
 2. Update the parameters under the `#ifdef MOTOR1` section to be the nominal parameters computed from MATLAB.
-3. Run `lab_code/sinusoidal_input.cpp`.
+3. Run `lab_code/sinusoidal_input.cpp`. Make sure that the arm starts in the default position (fully extended).
 4. Open `matlab/TuningPlot.m` in MATLAB. Update the COM port.
 5. Run `matlab/TuningPlot.m` in MATLAB to visualize the performance of your controller. 
 6. Tune your controller by incrementally changing `Ti1`, `Td1`, `Kp1`, and `alpha1` and seeing how that affects performance. Ideally, we want minimal overshoot, oscillations, and steady state error.
