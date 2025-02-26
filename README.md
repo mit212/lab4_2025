@@ -163,7 +163,7 @@ We will be using `lab_code/sinusoidal_input.cpp` to tune our controllers. We wil
 
 We are using a lead-lag compensator as opposed to a PID controller. Remember: for a transfer function, the frequency response for an angular frequency `w` can be found by substituting `s` with `iw`. You can think of the lag component as implementing integral control, since it places a pole at the origin. Similarly, the lead component acts as a derivative term, but when the frequency is very high (`w = ∞`), the gain approaches `alpha` instead of beoming infinite.
 
-Looking at the transfer functions for each, how do the standard PID gains `Kp`, `Ki`, and `Kd` reflect to the lead-lag compensator gains `Kp`, `Ti`, `Td`, and `alpha`? Specifically, if we want to increase the integral gain `Ki`, do we increase or decrease `Ti`? How about for the derivative gain `Kd` - what would we do to `Td`?
+Looking at the transfer functions for each, how do the standard PID gains `Kp`, `Ki`, and `Kd` reflect to the lead-lag compensator gains `Kp`, `Ti`, `Td`, and `alpha`? Specifically, if we want to increase the integral gain `Ki`, do we increase or decrease `Ti`? How about for the derivative gain `Kd` - what would we do to `Td`? `alpha` adjusts the strength of the derivative effect at high frequencies and the initial transient behavior.
 
 <p align="center">
     <img src="./.images/lead_lag_compensator.png" alt="ik" width="300"/>
