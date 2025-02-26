@@ -71,7 +71,7 @@ Before coming in to lab, please download and install the following software.
         sudo apt install python3-pip
         ```
 
-6. Install the UR RTDE library by opening a terminal and typing `pip install ur_rtde`
+6. Install the UR RTDE library by opening a terminal and typing `pip install ur_rtde`.
 
 ### 0.2 (Optional) Windows Subsystem for Linux (WSL)
 
@@ -124,7 +124,6 @@ For MacOS:
 
     We are still debugging why this doesn't work especially for Apple chip Macs. Feel free to send the staff an email with the error you are getting.
     </details>
-    
    
 Additional references:
 - [Github (Example Codes)](https://github.com/mit212/ur_2024)
