@@ -189,7 +189,7 @@ We will now use your tuned controllers to improve the drawing from last lab!
 |:---------------------------------------------------|
 | Show your work of art to a TA or LA so we can pin it up on the board! |
 
-## X Optional (extra credit!)
+## X Optional (eXtra credit!)
 
 Here are some optional challenges you can try if you finish lab early!
 1. Run `lab_code/drawing.cpp` with `trajectoryType = VERTICAL_LINE`.
