@@ -161,16 +161,16 @@ We will be using `lab_code/sinusoidal_input.cpp` to tune our controllers. We wil
 5. Run `matlab/TuningPlot.m` in MATLAB to visualize the performance of your controller. 
 6. Tune your controller by incrementally changing `Ti1`, `Td1`, `Kp1`, and `alpha1` and seeing how that affects performance. Ideally, we want minimal overshoot, oscillations, and steady state error.
 
-We are using a lead-lag compensator as opposed to a PID controller. Remember: for a transfer function, the frequency response for an angular frequency `w` can be found by substituting `s` with `iw`. You can think of the lag component as implementing integral control, but unlike PID, the gain does not become infinite when `w=0`. Similarly, the lead component acts as a derivative term, but when the frequency is very high (`w = ∞`), the gain approaches `alpha` instead of beoming infinite.
+We are using a lead-lag compensator as opposed to a PID controller. Remember: for a transfer function, the frequency response for an angular frequency `w` can be found by substituting `s` with `iw`. You can think of the lag component as implementing integral control. Similarly, the lead component acts as a derivative term, but when the frequency is very high (`w = ∞`), the gain approaches `alpha` instead of beoming infinite.
 
 Looking at the transfer functions for each, how do the PID gains `Kp`, `Ki`, and `Kd` reflect to the lead-lag compensator gains `Kp`, `Ti`, `Td`, and `alpha`? Specifically, if we want to increase the integral gain `Ki`, do we increase or decrease `Ti`? How about for the derivative gain `Kd`?
 
 <p align="center">
-    <img src="./.images/lead_lag_compensator.png" alt="ik" width="400"/>
+    <img src="./.images/lead_lag_compensator.png" alt="ik" width="300"/>
     </p>
 
 <p align="center">
-    <img src="./.images/PID_controller.png" alt="ik" width="400"/>
+    <img src="./.images/PID_controller.png" alt="ik" width="300"/>
     </p>
 
 7. Once you are satisfied with the performance, repeat the process for `MOTOR2`. 
@@ -183,8 +183,8 @@ We will now use your tuned controllers to improve the drawing from last lab!
 1. Open `lab_code/drawing.cpp` and update the parameters.
 2. Set `trajectoryType = HORIZONTAL_LINE`.
 3. Run `lab_code/drawing.cpp` and observe whether the arm performs better than last lab.
-4. Open `matlab/TrajectoryPlot.m` in MATLAB. Update the COM port.
-5. Run `matlab/TrajectoryPlot.m` to visualize the target and actual trajectories.
+4. Open `src/matlab/TrajectoryPlot.m` in MATLAB. Update the COM port.
+5. Run `src/matlab/TrajectoryPlot.m` to visualize the target and actual trajectories.
 6. After putting the arm in the home position, set `trajectoryType = JOYSTICK` and run `lab_code/drawing.cpp` again.
 7. Draw something awesome using your joystick!
 
