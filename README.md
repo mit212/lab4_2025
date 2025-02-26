@@ -71,11 +71,11 @@ Before coming in to lab, please download and install the following software.
         sudo apt install python3-pip
         ```
 
-6. Install the RTDE library by opening a terminal and typing `pip install ur_rtde`.
+6. Install the RTDE library by followiing the steps here: [ur_rtde Installation](https://sdurobotics.gitlab.io/ur_rtde/installation/installation.html). It might work for some Mac or Windows machines to simply run `pip install ur_rtde`, but if not follow the instructions from the link. If the Windows installation feels complex for you, look at section 0.2 below.
 
-### 0.2 (Optional) Windows Subsystem for Linux (WSL)
+### 0.2 (Recommended for Windows Machines) Windows Subsystem for Linux (WSL)
 
-**In previous years, the ur_rtde library had to be installed under a linux-type OS (linux or Mac) to function properly. It appears that Universal Robots has fixed the Python libraries so it now works from the standard Windows environment. Therefore, the steps below are OPTIONAL, but recommended for anyone on the UR5 subteam, or if the installation steps above failed for you.**
+**If you have a Windows machine, it is much easier to install ur_rtde through the Linux virtual environment for Windows (WSL). This is OPTIONAL.**
 
 For Windows: 
 1. Open PowerShell in administrator mode by right-clicking and selecting "Run as administrator".
