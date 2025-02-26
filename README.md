@@ -65,7 +65,7 @@ Before coming in to lab, please download and install the following software.
 
 6. Install the UR RTDE library via `pip install ur_rtde`
 
-### 0.2 (Optional) Windows Subs
+### 0.2 (Optional) Windows Subsystem for Linux (WSL)
 
 **Please note: In previous years, the ur_rtde library had to be installed under a linux-type OS (linux or Mac) to function properly. It appears that Universal Robots has fixed the Python libraries so it works fine this year from the standard Windows environment. Therefore, the steps below are OPTIONAL, but recommended for anyone on the UR5 subteam.**
 
