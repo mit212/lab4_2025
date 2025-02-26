@@ -131,13 +131,15 @@ Clone this repository and run `robot/blink_test.cpp`. You should see the onboard
 <details> <summary> <i> Forget how to clone? </i> </summary>
 
 Please refer to the [instructions from Lab 1](
-https://github.com/mit212/lab1_2024?tab=readme-ov-file#31-git-clone).
+https://github.com/mit212/lab1_2025?tab=readme-ov-file#31-git-clone).
 
 </details>
 
 ### 2.2 Validate Motors
 
-Orient the arm straight up, in default starting position. Run `test_code/motor_drive_test.cpp` to validate your motor setup. You should see both motors oscillating back and forth. Remember, motor 1 is attached to the base and motor 2 is attached to the second link. **Perturb the arm and base links by hand to check if all screws are tight.** If you notice any slop in the system (e.g. a link can be moved by hand without engaging the motors), notify the TAs and we will provide you with a hex key.
+Orient the arm straight up, in the default starting position. Run `test_code/motor_drive_test.cpp` to validate your motor setup. Set the power supply to 12 volts (also for the rest of the lab). You should see both motors oscillating back and forth. Remember, motor 1 is attached to the base and motor 2 is attached to the second link.
+
+**Perturb the arm and base links by hand to check if all screws are tight.** If you notice any excessive slop in the system (e.g. a link can be moved by hand more than 2-3 degrees without engaging the motors), notify the TAs, and we will provide you with a hex key to tighten the bolts.
 
 ### 2.3 Validate Encoders
 
@@ -153,14 +155,20 @@ Estimated time of completion: 20 min
 We will be using `lab_code/sinusoidal_input.cpp` to tune our controllers. We will tune the two motors separately.
 
 1. Uncomment `#define MOTOR1` and comment out `#define MOTOR2`.
-2. Update the parameters under the `#ifdef MOTOR1` section to be the nominal parameters computed from MATLAB. 
+2. Update the parameters under the `#ifdef MOTOR1` section to be the nominal parameters computed from MATLAB. Parameters not mentioned in the MATLAB script should be left at zero.
 3. Run `lab_code/sinusoidal_input.cpp`.
 4. Open `matlab/TuningPlot.m` in MATLAB. Update the COM port.
 5. Run `matlab/TuningPlot.m` in MATLAB to visualize the performance of your controller. 
 6. Tune your controller by incrementally changing `Ti1`, `Td1`, `Kp1`, and `alpha1` and seeing how that affects performance. Ideally, we want minimal overshoot, oscillations, and steady state error.
 
+We are using a lead-lag compensator as opposed to a PID controller. Looking at the transfer functions for each, how do the PID gains `Kp`, `Ki`, and `Kd` reflect to the lead-lag compensator gains `Kp`, `Ti`, `Td`, and `alpha`? Specifically, if we want to 
+
 <p align="center">
-    <img src=https://github.com/user-attachments/assets/2fb757f8-e8ee-4e8e-8cae-a819c4ca1fab alt="ik" width="400"/>
+    <img src="./.images/lead_lag_compensator.png" alt="ik" width="400"/>
+    </p>
+
+<p align="center">
+    <img src="./.images/PID_controller.png" alt="ik" width="400"/>
     </p>
 
 7. Once you are satisfied with the performance, repeat the process for `MOTOR2`. 
