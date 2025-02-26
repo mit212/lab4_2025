@@ -189,21 +189,12 @@ We will now use your tuned controllers to improve the drawing from last lab!
 |:---------------------------------------------------|
 | Show your work of art to a TA or LA so we can pin it up on the board! |
 
-## 5 Feedback Form
-
-Before you leave, please fill out https://tinyurl.com/212-feedback. 
-
-| :white_check_mark: CHECKOFF 2 :white_check_mark:   |
-|:---------------------------------------------------|
-| Show the feedback form completion screen to a TA or LA. |
-
-## X Optional
+## X Optional (extra credit!)
 
 Here are some optional challenges you can try if you finish lab early!
 1. Run `lab_code/drawing.cpp` with `trajectoryType = VERTICAL_LINE`.
 2. Run `lab_code/drawing.cpp` with `trajectoryType = CIRCLE`.
-3. Connect the joystick to a separate microcontroller and make it wireless.
-4. Try using another type of input besides the joystick. For example, you can use potentiometers or an IMU!
+3. Explain to the staff how a lead-lag compensator works, why we use it instead of a PID controller, and the what gain/phase response is for each component (a sketched Bode plot would be nice!).
 
 [^1]: Version 1 - 2020: Dr. Harrison Chin  
   Version 2 - 2021: Phillip Daniel  
