@@ -114,7 +114,7 @@ You can find information about the motor here: https://www.gobilda.com/modern-ro
 
 | :white_check_mark: CHECKOFF 1 :white_check_mark:   |
 |:---------------------------------------------------|
-| Show the gains from the Matlab script to a TA or lab staff. |
+| Show the calculated controller gains at the end of the MATLAB script to a TA or LA. |
 
 ## 2 Validate Hardware Setup
 Estimated time of completion: 10 min
