@@ -177,9 +177,13 @@ Looking at the transfer functions for each, how do the standard PID gains `Kp`, 
     <img src="./.images/PID_controller.png" alt="ik" width="300"/>
     </p>
 
-7. Once you are satisfied with the performance, repeat the process for `MOTOR2`. 
+7. Once you are satisfied with the performance, repeat the process for `MOTOR2`.
 
-## 4 Drawing Revisited
+| :white_check_mark: CHECKOFF 2 :white_check_mark:   |
+|:---------------------------------------------------|
+| Show your controller to a TA or LA. |
+
+## X.1 Optional (eXtra credit!)
 Estimated time of completion: 10 min
 
 We will now use your tuned controllers to improve the drawing from last lab!
@@ -191,17 +195,6 @@ We will now use your tuned controllers to improve the drawing from last lab!
 5. Run `src/matlab/TrajectoryPlot.m` to visualize the target and actual trajectories.
 6. After putting the arm in the home position, set `trajectoryType = JOYSTICK` and run `lab_code/drawing.cpp` again.
 7. Draw something awesome using your joystick!
-
-| :white_check_mark: CHECKOFF 2 :white_check_mark:   |
-|:---------------------------------------------------|
-| Show your work of art to a TA or LA so we can pin it up on the board! |
-
-## X Optional (eXtra credit!)
-
-Here are some optional challenges you can try if you finish lab early!
-1. Run `lab_code/drawing.cpp` with `trajectoryType = VERTICAL_LINE`.
-2. Run `lab_code/drawing.cpp` with `trajectoryType = CIRCLE`.
-3. Explain to the staff how a lead-lag compensator works, why we use it instead of a PID controller, and the what the gain/phase response is for each component (a sketched Bode plot would be nice).
 
 [^1]: Version 1 - 2020: Dr. Harrison Chin  
   Version 2 - 2021: Phillip Daniel  
