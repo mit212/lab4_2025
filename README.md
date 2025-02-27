@@ -112,6 +112,10 @@ Clone this repository. Open `src/matlab/MotorModel.mlx` in MATLAB and follow alo
 
 You can find information about the motor here: https://www.gobilda.com/modern-robotics-12vdc-motor/
 
+| :white_check_mark: CHECKOFF 1 :white_check_mark:   |
+|:---------------------------------------------------|
+| Show the gains from the Matlab script to a TA or lab staff. |
+
 ## 2 Validate Hardware Setup
 Estimated time of completion: 10 min
 
@@ -188,7 +192,7 @@ We will now use your tuned controllers to improve the drawing from last lab!
 6. After putting the arm in the home position, set `trajectoryType = JOYSTICK` and run `lab_code/drawing.cpp` again.
 7. Draw something awesome using your joystick!
 
-| :white_check_mark: CHECKOFF 1 :white_check_mark:   |
+| :white_check_mark: CHECKOFF 2 :white_check_mark:   |
 |:---------------------------------------------------|
 | Show your work of art to a TA or LA so we can pin it up on the board! |
 
