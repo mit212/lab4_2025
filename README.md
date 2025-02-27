@@ -183,7 +183,7 @@ Looking at the transfer functions for each, how do the standard PID gains `Kp`, 
 |:---------------------------------------------------|
 | Show your controller to a TA or LA. |
 
-## X.1 Optional (eXtra credit!)
+## X Optional (eXtra credit!)
 Estimated time of completion: 10 min
 
 We will now use your tuned controllers to improve the drawing from last lab!
